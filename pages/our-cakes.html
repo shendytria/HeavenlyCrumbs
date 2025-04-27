@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeavenlyCrumbs - Our Cakes</title>
+    <link rel="stylesheet" href="../css/our-cakes.css">    
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="logo">HeavenlyCrumbs</div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#order-form">Order Now</a>
+            <a href="our-cakes.html">Our Cakes</a>
+            <a href="about.us.html">About Us</a>
+        </div>
+        <a href="signup.html" class="sign-up-btn" style="text-decoration: none;">Sign Up</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    </header>
+
+    <!-- Menu Header -->
+    <section class="menu-header">
+        <div class="marble-bg"></div>
+        <div class="gold-accent gold-line-1"></div>
+        <div class="gold-accent gold-line-2"></div>
+
+        <h1>Our Cake Menu</h1>
+        <p>Discover our selection of handcrafted cakes made with the finest ingredients. Each cake is baked with love
+            and
+            attention to detail, perfect for any occasion.</p>
+
+        <!-- Menu Filter -->
+        <div class="menu-filter">
+            <button class="filter-btn active" data-filter="all">All Cakes</button>
+            <button class="filter-btn" data-filter="wedding">Wedding</button>
+            <button class="filter-btn" data-filter="birthday">Birthday</button>
+            <button class="filter-btn" data-filter="special">Special Occasion</button>
+            <button class="filter-btn" data-filter="seasonal">Seasonal</button>
+        </div>
+    </section>
+
+    <!-- Menu Grid -->
+    <section class="menu-container">
+        <div class="menu-grid" id="menuGrid">
+            <!-- Wedding Cakes -->
+            <div class="menu-item" data-category="wedding">
+                <div class="menu-item-price">Rp2.000.000</div>
+                <img src="https://i.pinimg.com/736x/68/e3/7b/68e37bc58c2b01f00707d5382dbbd9df.jpg"
+                    alt="Elegant Wedding Cake">
+                <div class="menu-item-info">
+                    <h3>Elegant Blue Marble Wedding Cake</h3>
+                    <p>Three-tier blue marble cake with gold leaf accents</p>
+                    <div class="rating">★★★★★ (29)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="wedding">
+                <div class="menu-item-price">Rp2.000.000</div>
+                <img src="https://i.pinimg.com/474x/a2/92/44/a29244d365a15e92418456dffd3b41fe.jpg"
+                    alt="White Floral Wedding Cake">
+                <div class="menu-item-info">
+                    <h3>White Floral Wedding Cake</h3>
+                    <p>Four-tier white cake with handcrafted sugar flowers</p>
+                    <div class="rating">★★★★☆ (42)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="wedding">
+                <div class="menu-item-price">Rp5.000.000</div>
+                <img src="https://i.pinimg.com/736x/63/22/f0/6322f0635ecc34eda0bea8ce20836eaa.jpg"
+                    alt="Gold Accent Wedding Cake">
+                <div class="menu-item-info">
+                    <h3>Gold Accent Wedding Cake</h3>
+                    <p>Luxurious cake with gold detailing and white buttercream</p>
+                    <div class="rating">★★★★★ (37)</div>
+                </div>
+            </div>
+
+            <!-- Birthday Cakes -->
+            <div class="menu-item" data-category="birthday">
+                <div class="menu-item-price">Rp1.400.000</div>
+                <img src="https://i.pinimg.com/736x/f9/f8/41/f9f841635eef72d07bf40eded21a4733.jpg"
+                    alt="Chocolate Birthday Cake">
+                <div class="menu-item-info">
+                    <h3>Chocolate Birthday Delight</h3>
+                    <p>Rich chocolate cake with ganache and berries</p>
+                    <div class="rating">★★★★★ (68)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="birthday">
+                <div class="menu-item-price">Rp2.000.000</div>
+                <img src="https://i.pinimg.com/736x/47/bf/41/47bf41ce330392b781b6aa7280396bbc.jpg"
+                    alt="Floral Birthday Cake">
+                <div class="menu-item-info">
+                    <h3>Floral Fantasy Birthday Cake</h3>
+                    <p>Vanilla sponge with edible flowers and pastel frosting</p>
+                    <div class="rating">★★★★☆ (45)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="birthday">
+                <div class="menu-item-price">Rp1.500.000</div>
+                <img src="https://i.pinimg.com/736x/34/69/9d/34699dfc3334fd8a7154bede7abc05b5.jpg"
+                    alt="Chocolate Indulgence Cake">
+                <div class="menu-item-info">
+                    <h3>Chocolate Indulgence</h3>
+                    <p>Triple layer chocolate cake with chocolate shavings</p>
+                    <div class="rating">★★★★★ (53)</div>
+                </div>
+            </div>
+
+            <!-- Special Occasion Cakes -->
+            <div class="menu-item" data-category="special">
+                <div class="menu-item-price">Rp2000.000</div>
+                <img src="https://i.pinimg.com/736x/02/a1/c9/02a1c997eb89b38ede345bc8b606676a.jpg"
+                    alt="Anniversary Celebration Cake">
+                <div class="menu-item-info">
+                    <h3>Anniversary Celebration Cake</h3>
+                    <p>Elegant two-tier cake with gold accents and fresh flowers</p>
+                    <div class="rating">★★★★★ (31)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="special">
+                <div class="menu-item-price">Rp1.700.000</div>
+                <img src="https://i.pinimg.com/736x/67/e1/13/67e11329ce841492994a413967a1cbc0.jpg"
+                    alt="Graduation Cake">
+                <div class="menu-item-info">
+                    <h3>Graduation Achievement Cake</h3>
+                    <p>Celebratory cake with graduation cap and diploma design</p>
+                    <div class="rating">★★★★☆ (24)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="special">
+                <div class="menu-item-price">Rp1.800.000</div>
+                <img src="https://i.pinimg.com/736x/08/9b/32/089b32bb321af804ce6f4c311273ca6a.jpg"
+                    alt="Baby Shower Cake">
+                <div class="menu-item-info">
+                    <h3>Baby Shower Celebration</h3>
+                    <p>Delicate cake with gender reveal design and soft colors</p>
+                    <div class="rating">★★★★★ (39)</div>
+                </div>
+            </div>
+
+            <!-- Seasonal Cakes -->
+            <div class="menu-item" data-category="seasonal">
+                <div class="menu-item-price">Rp1.500.000</div>
+                <img src="https://i.pinimg.com/736x/3a/23/d1/3a23d1ddd6891c791a3ea69937c17b24.jpg" alt="Christmas Cake">
+                <div class="menu-item-info">
+                    <h3>Holiday Magic Cake</h3>
+                    <p>Festive Christmas cake with winter decorations</p>
+                    <div class="rating">★★★★☆ (27)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="seasonal">
+                <div class="menu-item-price">Rp2.000.000</div>
+                <img src="https://i.pinimg.com/736x/5f/eb/7a/5feb7a333db5580537d57d0308abbdce.jpg"
+                    alt="Spring Bloom Cake">
+                <div class="menu-item-info">
+                    <h3>Spring Bloom Cake</h3>
+                    <p>Light sponge cake with fresh spring flowers and citrus flavors</p>
+                    <div class="rating">★★★★★ (35)</div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="seasonal">
+                <div class="menu-item-price">Rp2.000.000</div>
+                <img src="https://i.pinimg.com/736x/a3/02/93/a302935cdd2a5889e79362472eef8f69.jpg"
+                    alt="Autumn Harvest Cake">
+                <div class="menu-item-info">
+                    <h3>Autumn Harvest Cake</h3>
+                    <p>Spiced cake with caramel, nuts and fall-inspired decorations</p>
+                    <div class="rating">★★★★☆ (19)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more-container">
+            <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+        </div>
+    </section>
+
+    <!-- Cake Modal -->
+    <div class="cake-modal" id="cakeModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <div class="modal-image-container">
+                <img src="" alt="" class="modal-image" id="modalImage">
+            </div>
+            <div class="modal-info">
+                <div class="modal-title-section">
+                    <h3 id="modalTitle"></h3>
+                    <div class="modal-price" id="modalPrice"></div>
+                    <div class="modal-rating">
+                        <div class="modal-stars" id="modalStars"></div>
+                        <div class="modal-review-count" id="modalReviewCount"></div>
+                    </div>
+                </div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="modal-ingredients">
+                    <h4>Ingredients</h4>
+                    <ul id="modalIngredients"></ul>
+                </div>
+                <div class="modal-reviews">
+                    <h4>Customer Reviews</h4>
+                    <div id="modalReviews"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+        <div class="testimonial">
+            "I ordered the Chocolate Birthday Delight for my husband's celebration, and it was absolutely worth every
+            penny! The rich flavor and beautiful presentation made his day extra special. Everyone at the party was
+            asking where I got such a delicious cake!"
+        </div>
+        <div class="testimonial-author">- Sarah Johnson, Happy Customer</div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready to Order Your Dream Cake?</h2>
+        <p>Whether you've found the perfect cake in our menu or have a custom design in mind, we're here to create
+            the perfect cake for your special occasion.</p>
+        <a href="../index.html#order-form" class="order-btn">Order Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="our-cakes.html">Our Cakes</a>
+            <a href="about.us.html">About Us</a>
+            <a href="../index.html#order-form">Contact</a>
+        </div>
+        <div class="social-icons">
+            <div class="social-icon whatsapp">
+                <a href="https://wa.me/6282213280162" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M17.498 14.382c-.301-.15-1.767-.867-2.04-.966-.273-.101-.473-.15-.673.15-.197.295-.771.964-.944 1.162-.175.195-.349.21-.646.075-.3-.15-1.263-.465-2.403-1.485-.888-.795-1.484-1.77-1.66-2.07-.174-.3-.019-.465.13-.615.136-.135.301-.345.451-.523.146-.181.194-.301.297-.496.1-.21.049-.375-.025-.524-.075-.15-.672-1.62-.922-2.206-.24-.584-.487-.51-.672-.51-.172-.015-.371-.015-.571-.015-.2 0-.523.074-.797.359-.273.3-1.045 1.02-1.045 2.475s1.07 2.865 1.219 3.075c.149.195 2.105 3.195 5.1 4.485.714.3 1.27.48 1.704.629.714.227 1.365.195 1.88.121.574-.091 1.767-.721 2.016-1.426.255-.705.255-1.29.18-1.425-.074-.135-.27-.21-.57-.345m-5.446 7.443h-.016c-1.77 0-3.524-.48-5.055-1.38l-.36-.214-3.75.975 1.005-3.645-.239-.375c-.99-1.576-1.516-3.391-1.516-5.26 0-5.445 4.436-9.884 9.939-9.884 2.64 0 5.122 1.03 6.988 2.898 1.866 1.869 2.893 4.352 2.893 6.994-.003 5.448-4.437 9.891-9.885 9.891m8.413-18.297C18.306 1.368 15.429.01 12.238 0 5.555 0 .15 5.397.146 12.086c0 2.1.547 4.15 1.579 5.955l-1.675 6.119 6.28-1.646c1.737.948 3.693 1.447 5.686 1.447h.005c6.682 0 12.088-5.397 12.093-12.085 0-3.205-1.248-6.219-3.514-8.484" />
+                    </svg>
+                </a>
+            </div>
+            <div class="social-icon instagram">
+                <a href="https://www.instagram.com/shendytriaa" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 HeavenlyCrumbs. All Rights Reserved.</p>
+            <p>Shendy Tria, Master Baker at HeavenlyCrumbs</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script src="../js/our-cakes.js"></script>
+</body>
+
+</html>
